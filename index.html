@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Lumos Candle</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+
+<header class="header">
+     <img src="assets/candle.svg" alt="Candle Logo" width="104" height="104">
+    <h1 class="logo">Lumos Candle</h1>
+    <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#scents">Scents</a>
+        <a href="#order">Order</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Handcrafted Aromatic Candles for Every Mood</h2>
+
+     
+            <p>Calm your senses with warm, natural fragrances.</p>
+            <a href="#order" class="btn">Create Your Candle</a>
+        </div>
+        
+            <div class="hero-img">
+    <img src="candle.webp" alt="Candle" >
+      <img src="candle1.webp" alt="Candle 2" >
+</div>
+        
+    </section>
+
+  
+    <section id="about" class="about">
+        <h2>Our Story</h2>
+        <p>
+            At Lumos Candle, we craft small-batch soy candles infused with natural 
+            aromas inspired by nature — from soft florals to deep woodsy notes.
+        </p>
+        <p>Each candle is made with love and care, using natural ingredients for a safe and cozy ambiance.</p>
+
+    </section>
+
+    <section id="scents" class="scents">
+        <h2>Popular Scents</h2>
+
+        <div class="grid">
+            <article class="card">
+                <h3>Midnight Lavender</h3>
+                <p>Soothing floral scent perfect for relaxation.</p>
+            </article>
+
+            <article class="card">
+                <h3>Forest Glow</h3>
+                <p>Fresh pine tones with subtle earthy notes.</p>
+            </article>
+
+            <article class="card">
+                <h3>Citrus Dawn</h3>
+                <p>Bright, energizings scent with orange and lemon.</p>
+            </article>
+        </div>
+    </section>
+    <section id="order" class="order">
+        <h2>Create Your Candle</h2>
+
+        <form class="form">
+
+            
+            <label>
+                Name:
+                <input type="text" name="name" required >
+            </label>
+
+            <label>
+                Email:
+                <input type="email" name="email" required >
+            </label>
+            <fieldset class="checkbox-group">
+                <legend>Choose your scent profile:</legend>
+
+                <label><input type="checkbox" name="scent" > Midnight Lavender</label>
+                <label><input type="checkbox" name="scent" > Woodsy</label>
+                <label><input type="checkbox" name="scent" > Fruity</label>
+                <label><input type="checkbox" name="scent" > Citrus Dawn</label>
+                <label><input type="checkbox" name="scent" > Forest Glow</label>
+            </fieldset>
+
+            <fieldset class="radio-group">
+                <legend>Select candle size:</legend>
+
+                <label><input type="radio" name="size" required > Small (150ml)</label>
+                <label><input type="radio" name="size" > Large (300ml)</label>
+            </fieldset>
+
+            <fieldset class="radio-group">
+                <legend>Wax type:</legend>
+
+                <label><input type="radio" name="wax" required > Soy Wax</label>
+                <label><input type="radio" name="wax" > Beeswax</label>
+            </fieldset>
+
+            <label>
+                Packaging Style:
+                <select name="package">
+                    <option>Minimalist</option>
+                    <option>Rustic</option>
+                    <option>Gift Wrapped</option>
+                </select>
+            </label>
+<label>
+    Special Instructions:
+    <textarea name="instructions" rows="4" placeholder="Any extra notes?"></textarea>
+</label>
+
+          
+            <button type="submit" class="btn submit-btn">Place Order</button>
+
+        </form>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2025 Lumos Candle. Crafted with love.</p>
+</footer>
+
+</body>
+</html>
+
+
